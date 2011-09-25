@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="git@github.com:amirhadar/" name="github" />
+  <remote fetch="git@github.com:amirhadar/" name="github.com" />
   <default revision="master" remote="github"/>
-  <project path="myprojs/amirtest" name="amirtest" />
+  <project path="myprojs/amirtest" name="amirtest" remote="github.com"/>
   <project path="myprojs/amirtest2" name="amirtest2" />
 </manifest>
