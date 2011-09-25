@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git@github.com:amirhadar/" name="github" />
+  <default revision="master" remote="amirh-local"/>
+  <project path="myprojs/amirtest" name="amirtest" />
+  <project path="myprojs/amirtest2" name="amirtest2" />
+</manifest>
